@@ -1,0 +1,29 @@
+.calendar-table{
+    border: 2px solid rgb(238, 233, 233);
+    border-collapse: collapse;
+    width: 100%;
+    empty-cells: hide;
+    table-layout: fixed;
+}
+
+th, tr, td{
+    border: 2px solid lightgrey;
+}
+
+td{
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: right;
+}
+
+.days{
+    background-color: rgb(250, 206, 148);
+}
+
+td:empty{
+    background-color: rgb(165, 159, 159);
+}
+
+td:first-child, td:last-child {
+    color: red;
+  } 
